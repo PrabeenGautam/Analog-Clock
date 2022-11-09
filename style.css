@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Orbitron", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+}
+
+section {
+  background-color: #dbdae0;
+  position: relative;
+  width: 335px;
+  height: 335px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 10px #1876d2;
+  padding: 15px;
+}
+
+.clock-border {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.time {
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+.time3,
+.time6,
+.time9,
+.time12 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.center {
+  width: 15px;
+  height: 15px;
+  background-color: #1876d2;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hours {
+  width: 6px;
+  height: 130px;
+  background-color: #222;
+  position: absolute;
+  left: calc(50% - 3px);
+  top: 40px;
+  transform-origin: 50% calc(100% - 17px);
+  transform: rotate(60deg);
+  border-radius: 15px;
+}
+
+.minutes {
+  width: 4px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: calc(50% - 3px);
+  top: 20px;
+  transform-origin: 50% calc(100% - 18px);
+  transform: rotate(120deg);
+  border-radius: 8px;
+}
+
+.seconds {
+  width: 3px;
+  height: 170px;
+  background-color: #1675d1;
+  position: absolute;
+  left: calc(50% - 2px);
+  top: 0;
+  transform-origin: 50% calc(100% - 18.5px);
+  border-radius: 2px;
+}
+
+.time1 {
+  right: 75px;
+  top: 20px;
+}
+
+.time2 {
+  top: 70px;
+  right: 25px;
+}
+
+.time3 {
+  top: 150px;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.time4 {
+  bottom: 70px;
+  right: 25px;
+}
+
+.time5 {
+  right: 75px;
+  bottom: 20px;
+}
+
+.time6 {
+  left: 150px;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+
+.time7 {
+  left: 75px;
+  bottom: 20px;
+}
+
+.time8 {
+  bottom: 70px;
+  left: 25px;
+}
+
+.time9 {
+  top: 150px;
+  left: 5px;
+  transform: translateY(-50%);
+}
+
+.time10 {
+  top: 70px;
+  left: 25px;
+}
+
+.time11 {
+  left: 75px;
+  top: 20px;
+}
+
+.time12 {
+  left: 150px;
+  top: 0;
+  transform: translateX(-50%);
+}
